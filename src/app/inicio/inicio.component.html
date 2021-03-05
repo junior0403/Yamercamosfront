@@ -1,0 +1,69 @@
+<app-nav></app-nav>
+<div *ngIf="!load" class="spinner-border text-primary" role="status">
+  <span class="sr-only"></span>
+</div>
+<br><br>
+<div class="container-fluid">
+  <div class="row text-white text-center">
+<div class="card col-2 bg-dark border" style="width: 17rem;">
+  <img class="bd-placeholder-img card-img-top p-2" height="250"
+    src="https://www.toccmarket.com/image/cache/catalog/BEBIDAS GASEOSAS/mayoreototal-pack-de-coca-cola-de-3-litros-con-8-piezas-coca-cola-refrescos-coca-cola-sku_large-1000x798.jpg" />
+
+  <div class="card-body">
+    <p class="card-text">
+      <strong>{{ 3000 | currency:'COP' }}</strong>
+    </p>
+    <p class="card-text"> Bebida gaseosa CocaCola 
+      2L</p>
+    <div class="d-flex justify-content-between align-items-center">
+      <div class="btn-group">
+        <button type="submit" class="btn btn-sm btn-outline-secondary product-btn" (click)="submit()">Añadir al carrito</button>
+        <button type="button" class="btn btn-sm btn-outline-secondary product-btn" >View Details</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+    <div class="row text-white text-center">
+      <div class="card col-2 bg-dark border" style="width: 17rem;">
+        <img class="bd-placeholder-img card-img-top p-2" height="250"
+          src="https://exitocol.vtexassets.com/arquivos/ids/1976027-800-auto?width=800&height=auto&aspect=true" />
+      
+        <div class="card-body">
+          <p class="card-text">
+            <strong>{{ 12000 | currency:'COP' }}</strong>
+          </p>
+          <p class="card-text"> Bebida gaseosa CocaCola 
+            2L</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <button type="submit" class="btn btn-sm btn-outline-secondary product-btn" (click)="submit()">Añadir al carrito</button>
+              <button type="button" class="btn btn-sm btn-outline-secondary product-btn" >View Details</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="row text-white text-center">
+        <div class="card col-2 bg-dark border" style="width: 17rem;">
+          <img class="bd-placeholder-img card-img-top p-2" height="250"
+            src="https://exitocol.vtexassets.com/arquivos/ids/5619826-800-auto?width=800&height=auto&aspect=true" />
+        
+          <div class="card-body">
+            <p class="card-text">
+              <strong>{{ 14000 | currency:'COP' }}</strong>
+            </p>
+            <p class="card-text"> Bebida gaseosa CocaCola 
+              2L</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <button type="submit" class="btn btn-sm btn-outline-secondary product-btn" (click)="submit()">Añadir al carrito</button>
+                <button type="button" class="btn btn-sm btn-outline-secondary product-btn" >View Details</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+</div>
+<app-footer></app-footer>
+  
